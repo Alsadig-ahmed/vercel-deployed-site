@@ -28,6 +28,10 @@ const config = {
       split: false,
     }),
   },
+	alias: {
+		$components: 'src/components',
+		$utils: 'src/utils'
+	  }
 };
 
 export default config;
